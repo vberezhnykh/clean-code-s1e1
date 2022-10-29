@@ -19,7 +19,8 @@
 
 @media (max-width:768px) {
   
-  .aaa { text-align: center;
+  .aaa { 
+    text-align: center;
 }
 
 }
@@ -37,14 +38,14 @@
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list__item, .heading {
-  list-style:none;
+  list-style: none;
 }
-.input, .button{
-  outline:none;
+.input, .button {
+  outline: none;
 }
 .button {
   background: none;
@@ -116,7 +117,7 @@
   font-size: 18px;
   width: 226px;
 }
-.list__item >    .text {
+.list__item > .text {
   width: 226px;
 }
 .button.delete .delete-img {
@@ -136,14 +137,14 @@
 
 /* Edit Task */
 .list .list__item .text {
-  display:none;
+  display: none;
 }
 
 .list .list__item.edit-mode .text {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .list .list__item.edit-mode .label {
-  display:none;
+  display: none;
 }
