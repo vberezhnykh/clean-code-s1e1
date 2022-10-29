@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .preview {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .preview__img {
   width: 100%;
 }
+
 .preview__extra-info {
   font-family: fantasy, cursive;
 }
@@ -24,31 +27,38 @@
 }
 
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .new-task {
   display: flex;
 }
+
 .list {
   margin: 0;
   padding: 0px;
 }
+
 .list__item, 
 .heading {
   list-style: none;
 }
+
 .input, 
 .button {
   outline: none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -58,9 +68,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .heading {
   color: #333;
@@ -71,6 +83,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .text {
   margin: 0;
   font-size: 18px;
@@ -83,6 +96,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .text:focus {
   color: #333;
 }
@@ -92,7 +106,8 @@
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+
+.new__input {
   width: 318px;
 }
 
@@ -105,6 +120,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .list__item > .input,
 .list__item > .checkbox,
 .list__item > .label,
@@ -115,20 +131,24 @@
 .checkbox {
   margin: 0 10px;
 }
+
 .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .text {
   width: 226px;
 }
+
 .delete-btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-btn__img:hover {
   transform: rotateZ(0);
 }
